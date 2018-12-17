@@ -11,7 +11,7 @@
   --link-color: #2077b2;
   --control-text-color: #667176;
   --side-bar-bg-color: #fafafa;
-  --body-font: "Fira Code", "Fira Mono", "Source Code Pro", Courier, monospace;
+  --body-font: "Iosevka", "Fira Mono", "Source Code Pro", Courier, monospace;
   --header-font: "Fira Sans", "Roboto", "Source Sans Pro", sans-serif;
   --border-radius: 2px;
   --document-horizontal-margin: 80px;
@@ -25,7 +25,7 @@
   --main-content-margin: 0 auto;
   --main-content-max-width: 100ch;
   --monospace-font-size: 15px;
-  --monospace-font: "Fira Code", "Fira Mono", "Source Code Pro", Courier, monospace;
+  --monospace-font: "Iosevka", "Fira Mono", "Source Code Pro", Courier, monospace;
   --monospace-line-height: 1.4;
   --monospace: var(--monospace-font); /* Fixes source code mode */
   --nav-width: 200px;
@@ -33,24 +33,23 @@
 }
 
 @font-face {
-  font-family: 'Fira Code';
+  font-family: 'Iosevka';
   font-style: normal;
   font-weight: normal;
-  src: local('Fira Code'), local('FiraCode-Regular'), url('./xydark/FiraCode-Regular.ttf') format('truetype')
+  src: local('Iosevka'), local('Iosevka-Regular'), url('./xydark/iosevka-regular.ttf') format('truetype')
 }
 
 @font-face {
-  font-family: 'Fira Code';
+  font-family: 'Iosevka';
   font-style: normal;
   font-weight: bold;
-  src: local('Fira Code Bold'), local('FiraCode-Bold'), url('./xydark/FiraCode-Bold.ttf') format('truetype')
+  src: local('Iosevka Bold'), local('Iosevka-Bold'), url('./xydark/iosevka-bold.ttf') format('truetype')
 }
 
 @font-face {
-  font-family: 'Fira Code';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Fira Code Light'), local('FiraCode-Light'), url('./xydark/FiraCode-Light.ttf') format('truetype')
+  font-family: 'Iosevka';
+  font-style: italic;
+  src: local('Iosevka Light'), local('Iosevka-Light'), url('./xydark/losevka-italic.ttf') format('truetype')
 }
 
 @font-face {

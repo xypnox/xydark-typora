@@ -17,7 +17,7 @@
   --code-bg-color: #0C1420;
   --hover-bg-color: #050505; 
   --control-text-color: var(--font-color); 
-  --side-bar-bg-color: var(--accented-background-color);
+  --side-bar-bg-color: var(--background-color);
   --control-text-hover-color: var(--header-color);
   --item-hover-text-color: var(--header-color);
   --item-hover-bg-color: var(--hover-bg-color); 
@@ -74,9 +74,20 @@ table tr:nth-child(2n), thead {
   color: #C594C5;
 }
 
+/* UI */
+
 footer.ty-footer {
   border-top: none;
 }
+
+.typora-sourceview-on #toggle-sourceview-btn {
+  background-color: var(--background-color);
+}
+
+.cm-s-typora-default .CodeMirror-activeline-background {
+  background-color: #181c2d;
+}
+
 
 /* Code */
 
