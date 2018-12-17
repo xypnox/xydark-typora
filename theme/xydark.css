@@ -1,19 +1,20 @@
-@import 'night/codeblock.dark.css';
+@import 'xydark/codeblock.dark.css';
 @import 'night/mermaid.dark.css';
-@import 'night/sourcemode.dark.css';
+@import 'xydark/sourcemode.dark.css';
 @import 'xylight.css';
 
 :root {
-  --accented-background-color: #0C1420;
-  --light-header-color: #dbdbdb; /* H1-H3 */
-  --select-text-bg-color: #186a9a;
-  --accent-color: #4f525a;
+  --accented-background-color: #464B5D;
+  --light-header-color: #a5a7bd; /* H1-H3 */
+  --select-text-bg-color: #295080;
+  --accent-color: rgb(120, 124, 136);
+  --dark-accent-color: #464B5D;
   --background-color: #0F111A;
-  --font-color: #808e95;
-  --header-color: #bebebe; /* H4-H6 */
+  --font-color: #8F93A2;
+  --header-color: #EEFFFF; /* H4-H6 */
   --border-color: #232629;
-  --link-color: #5584aa; 
-  --code-bg-color: #1c1a1a;
+  --link-color: #6699CC; 
+  --code-bg-color: #0C1420;
   --hover-bg-color: #050505; 
   --control-text-color: var(--font-color); 
   --side-bar-bg-color: var(--accented-background-color);
@@ -24,17 +25,17 @@
   --text-color: var(--font-color);
   --meta-content-color: var(--accent-color);
   --md-char-color: var(--accent-color);
-  --window-border: 1px solid rgba(0,0,0,.07);
+  --window-border: 0px solid rgba(0,0,0,0);
   --active-file-bg-color: var(--hover-bg-color);
 }
 
 .outline-item:hover {
   background-color: var(--hover-bg-color);
 }
-
+/* 
 #write {
   cursor: -webkit-image-set(url("night/cursor.png") 1x, url("night/cursor@2x.png") 2x) 8 8, auto;
-}
+} */
 
 h1,
 h2,
@@ -57,6 +58,35 @@ thead {
 sup.md-footnote {
   background-color: var(--code-bg-color);
   color: var(--font-color);
+}
+
+.md-before,
+.md-after {
+  color: var(--dark-accent-color);
+}
+
+table tr:nth-child(2n), thead {
+  background-color: #181c2d;
+}
+
+.md-url {
+  color: #C594C5;
+}
+
+/* Code */
+
+code, .md-fences {
+	padding: .5em;
+	background: #0F111A;
+	/* border: 1px solid #ccc; */
+	padding: .1em;
+	font-size: 0.9em;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
+}
+
+.md-image>.md-meta {
+  color: var(--accent-color);
 }
 
 /* right click menu */

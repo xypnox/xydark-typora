@@ -1,6 +1,6 @@
 # Quartz Theme for Typora
 
-A minimalistic theme for documentation, note-taking and code snippets. It contains a light theme, **Milky Quartz**, and a dark theme, **Smoky Quartz**.
+A minimalistic theme for documentation, note-taking and code snippets. It contains a light theme, **xylight**, and a dark theme, **xydark**.
 
 ![screen1](/media/preview.png)
 
