@@ -14,8 +14,7 @@ Tested on Linux. The dark theme does not currently support Windows "Unibody" sty
 4. Restart Typora, then select it from Themes menu.
 
 >   **Warning**
->
->   The light theme currently looks like crap!
+>   The light theme currently looks like crap! I have made it only for the dark theme
 
 # Other Screenshots
 
@@ -30,3 +29,7 @@ Tested on Linux. The dark theme does not currently support Windows "Unibody" sty
 ## Minimal
 
 ![Minimal screenshot](media/minimal.png)
+
+# Credits
+
+This theme was heavily derived from [Quartz](https://theme.typora.io/theme/Quartz/)
