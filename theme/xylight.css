@@ -34,54 +34,54 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
-  src: local('Roboto'), local('Roboto-Regular'), url('./quartz/Roboto-Regular.ttf') format('truetype')
+  src: local('Roboto'), local('Roboto-Regular'), url('./xydark/Roboto-Regular.ttf') format('truetype')
 }
 
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: normal;
-  src: local('Roboto Italic'), local('Roboto-Italic'), url('./quartz/Roboto-Italic.ttf') format('truetype')
+  src: local('Roboto Italic'), local('Roboto-Italic'), url('./xydark/Roboto-Italic.ttf') format('truetype')
 }
 
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: bold;
-  src: local('Roboto Bold'), local('Roboto-Bold'), url('./quartz/Roboto-Bold.ttf') format('truetype')
+  src: local('Roboto Bold'), local('Roboto-Bold'), url('./xydark/Roboto-Bold.ttf') format('truetype')
 }
 
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: bold;
-  src: local('Roboto BoldItalic'), local('Roboto-BoldItalic'), url('./quartz/Roboto-BoldItalic.ttf') format('truetype')
+  src: local('Roboto BoldItalic'), local('Roboto-BoldItalic'), url('./xydark/Roboto-BoldItalic.ttf') format('truetype')
 }
 
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
-  src: local('Roboto Light'), local('Roboto-Light'), url('./quartz/Roboto-Light.ttf') format('truetype')
+  src: local('Roboto Light'), local('Roboto-Light'), url('./xydark/Roboto-Light.ttf') format('truetype')
 }
 
 @font-face {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 300;
-  src: local('Roboto LightItalic'), local('Roboto-LightItalic'), url('./quartz/Roboto-LightItalic.ttf') format('truetype')
+  src: local('Roboto LightItalic'), local('Roboto-LightItalic'), url('./xydark/Roboto-LightItalic.ttf') format('truetype')
 }
 
 @font-face {
   font-family: 'Inconsolata';
   font-weight: Normal;
-  src: local('Inconsolata'), local('Inconsolata-Regular'), url('./quartz/Inconsolata-Regular.ttf') format('truetype')
+  src: local('Inconsolata'), local('Inconsolata-Regular'), url('./xydark/Inconsolata-Regular.ttf') format('truetype')
 }
 
 @font-face {
   font-family: 'Inconsolata';
   font-weight: bold;
-  src: local('Inconsolata Bold'), local('Inconsolata-Bold'), url('./quartz/Inconsolata-Bold.ttf') format('truetype')
+  src: local('Inconsolata Bold'), local('Inconsolata-Bold'), url('./xydark/Inconsolata-Bold.ttf') format('truetype')
 }
 
 /* Narrow layout styles */

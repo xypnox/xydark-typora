@@ -1,14 +1,14 @@
 @import 'night/codeblock.dark.css';
 @import 'night/mermaid.dark.css';
 @import 'night/sourcemode.dark.css';
-@import 'quartz-milky.css';
+@import 'xylight.css';
 
 :root {
-  --accented-background-color: #1e1e1e;
+  --accented-background-color: #0C1420;
   --light-header-color: #dbdbdb; /* H1-H3 */
   --select-text-bg-color: #186a9a;
   --accent-color: #4f525a;
-  --background-color: #101010;
+  --background-color: #0F111A;
   --font-color: #808e95;
   --header-color: #bebebe; /* H4-H6 */
   --border-color: #232629;
@@ -38,7 +38,10 @@
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   color: var(--light-header-color);
 }
 
