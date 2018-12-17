@@ -27,6 +27,7 @@
   --md-char-color: var(--accent-color);
   --window-border: 0px solid rgba(0,0,0,0);
   --active-file-bg-color: var(--hover-bg-color);
+  --rawblock-edit-panel-bd: var(--code-background-color);
 }
 
 .outline-item:hover {
@@ -71,6 +72,10 @@ table tr:nth-child(2n), thead {
 
 .md-url {
   color: #C594C5;
+}
+
+footer.ty-footer {
+  border-top: none;
 }
 
 /* Code */
