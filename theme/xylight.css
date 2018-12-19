@@ -49,7 +49,7 @@
 @font-face {
   font-family: 'Iosevka';
   font-style: italic;
-  src: local('Iosevka Light'), local('Iosevka-Light'), url('./xydark/losevka-italic.ttf') format('truetype')
+  src: local('Iosevka Italic'), local('Iosevka-Italic'), url('./xydark/iosevka-italic.ttf') format('truetype')
 }
 
 @font-face {
