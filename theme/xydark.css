@@ -4,28 +4,28 @@
 @import 'xylight.css';
 
 :root {
-  --accented-background-color: #464B5D;
+  --accented-background-color: #464b5d;
   --light-header-color: #a5a7bd; /* H1-H3 */
   --select-text-bg-color: #295080;
   --accent-color: rgb(120, 124, 136);
-  --dark-accent-color: #464B5D;
-  --background-color: #0F111A;
-  --font-color: #8F93A2;
-  --header-color: #EEFFFF; /* H4-H6 */
+  --dark-accent-color: #464b5d;
+  --background-color: #0f111a;
+  --font-color: #8f93a2;
+  --header-color: #eeffff; /* H4-H6 */
   --border-color: #232629;
-  --link-color: #6699CC; 
-  --code-bg-color: #0C1420;
-  --hover-bg-color: #050505; 
-  --control-text-color: var(--font-color); 
+  --link-color: #6699cc;
+  --code-bg-color: #0c1420;
+  --hover-bg-color: #050505;
+  --control-text-color: var(--font-color);
   --side-bar-bg-color: var(--background-color);
   --control-text-hover-color: var(--header-color);
   --item-hover-text-color: var(--header-color);
-  --item-hover-bg-color: var(--hover-bg-color); 
+  --item-hover-bg-color: var(--hover-bg-color);
   --bg-color: var(--background-color);
   --text-color: var(--font-color);
   --meta-content-color: var(--accent-color);
   --md-char-color: var(--accent-color);
-  --window-border: 0px solid rgba(0,0,0,0);
+  --window-border: 0px solid rgba(0, 0, 0, 0);
   --active-file-bg-color: var(--hover-bg-color);
   --rawblock-edit-panel-bd: var(--code-background-color);
 }
@@ -33,7 +33,7 @@
 .outline-item:hover {
   background-color: var(--hover-bg-color);
 }
-/* 
+/*
 #write {
   cursor: -webkit-image-set(url("night/cursor.png") 1x, url("night/cursor@2x.png") 2x) 8 8, auto;
 } */
@@ -47,13 +47,22 @@ h6 {
   color: var(--light-header-color);
 }
 
+@media (min-width: 980px) {
+  h3.md-focus:before,
+  h4.md-focus:before,
+  h5.md-focus:before,
+  h6.md-focus:before {
+    color: var(--dark-accent-color);
+  }
+}
+
 mark {
-  background: #b8b80a
+  background: #b8b80a;
 }
 
 table tr:nth-child(2n),
 thead {
-    background-color: #141313;
+  background-color: #141313;
 }
 
 sup.md-footnote {
@@ -66,12 +75,13 @@ sup.md-footnote {
   color: var(--dark-accent-color);
 }
 
-table tr:nth-child(2n), thead {
+table tr:nth-child(2n),
+thead {
   background-color: #181c2d;
 }
 
 .md-url {
-  color: #C594C5;
+  color: #c594c5;
 }
 
 /* UI */
@@ -88,20 +98,20 @@ footer.ty-footer {
   background-color: #181c2d;
 }
 
-
 /* Code */
 
-code, .md-fences {
-	padding: .5em;
-	background: #0F111A;
-	/* border: 1px solid #ccc; */
-	padding: .1em;
-	font-size: 0.9em;
-	margin-left: 0.2em;
-	margin-right: 0.2em;
+code,
+.md-fences {
+  padding: 0.5em;
+  background: #0f111a;
+  /* border: 1px solid #ccc; */
+  padding: 0.1em;
+  font-size: 0.9em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
 }
 
-.md-image>.md-meta {
+.md-image > .md-meta {
   color: var(--accent-color);
 }
 
@@ -120,15 +130,19 @@ code, .md-fences {
 }
 
 .on-focus-mode .md-end-block:not(.md-focus) img,
-.on-focus-mode .md-task-list-item:not(.md-focus-container)>input {
+.on-focus-mode .md-task-list-item:not(.md-focus-container) > input {
   opacity: #4f525a !important;
 }
 
-.on-focus-mode li[cid]:not(.md-focus-container){
+.on-focus-mode li[cid]:not(.md-focus-container) {
   color: #4f525a;
 }
 
-.on-focus-mode .md-fences.md-focus .CodeMirror-code>*:not(.CodeMirror-activeline) *,
+.on-focus-mode
+  .md-fences.md-focus
+  .CodeMirror-code
+  > *:not(.CodeMirror-activeline)
+  *,
 .on-focus-mode .CodeMirror.cm-s-inner:not(.CodeMirror-focused) * {
   color: #4f525a !important;
 }
@@ -138,6 +152,10 @@ code, .md-fences {
   color: var(--light-header-color);
 }
 
-.on-focus-mode #typora-source .CodeMirror-code>*:not(.CodeMirror-activeline) * {
+.on-focus-mode
+  #typora-source
+  .CodeMirror-code
+  > *:not(.CodeMirror-activeline)
+  * {
   color: #4f525a !important;
 }

@@ -1,0 +1,9 @@
+@import 'xydark.css';
+
+.sidebar-menu {
+  opacity: 0.3;
+}
+
+.sidebar-menu:hover {
+  opacity: 1;
+}

@@ -1,10 +1,18 @@
-# XyDark Theme for Typora
+# XyDark Theme *for Typora*
 
 A minimalist theme for documentation, note-taking and code snippets. It contains a light theme, **xylight**, and a dark theme, **xydark**.
 
-![Default Screenshot](media/default.png)
+There is also xydarkfocus, which fades the sidebar away:
+
+![](media/default.png)
 
 Tested on Linux. The dark theme does not currently support Windows "Unibody" style. Not fully tested, but should work on MacOS.
+
+The default non focus version looks something like:
+
+![](media/no-focus.png)
+
+This theme was made to match my setup, the dotfiles of which can be [found in this repo](https://github.com/xypnox/dotfiles/).
 
 ## How to install
 
