@@ -14,7 +14,7 @@
   --header-color: #eeffff; /* H4-H6 */
   --border-color: #232629;
   --link-color: #6699cc;
-  --code-bg-color: #0c1420;
+  --code-bg-color: hsl(229, 27%, 10%);
   --hover-bg-color: #050505;
   --control-text-color: var(--font-color);
   --side-bar-bg-color: var(--background-color);
@@ -102,13 +102,19 @@ footer.ty-footer {
 
 code,
 .md-fences {
-  padding: 0.5em;
-  background: #0f111a;
-  /* border: 1px solid #ccc; */
-  padding: 0.1em;
+  border: none;
   font-size: 0.9em;
   margin-left: 0.2em;
   margin-right: 0.2em;
+}
+
+code {
+  background-color: hsl(229, 27%, 12%);
+  padding: 0.2em 0.5em;
+}
+
+.md-fences {
+  padding: 0.5em;
 }
 
 .md-image > .md-meta {
